@@ -39,32 +39,54 @@ img {
     padding: 20px;
 }
 
-p1 {
-    font-size: 30px;
-    margin-left: 100px;
+h2 {
+    font-size: 20px;
+    margin-left: 70px;
     margin-top: 50px;
+    justify-content: center;
 }
 
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+#p2 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 50px;
+  justify-content: center;
+}
 
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-    header {
-      background: #772014;
-    }
-  }
+.flexboxP {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly ;
+}
+
+.flexboxchild {
+  flex-basis: 25%;
+}
+
+#mainpics {
+display: flex;
+flex-basis:| auto;
+justify-content: space-evenly;
+}
+
+#pic1 {
+  height: 500px;
+  width: 350px;
+}
+
+#pic2{
+  height: 1000px;
+  width: 350px;
+}
+
+#about_me{
+  text-align: center;
+  background-color: #d7eb29;
+  font-size: 30px;
+  margin-left: 500px;
+  margin-right: 500px;
+
   
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #030303;
-    }
-  }
   
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
-  
+}
