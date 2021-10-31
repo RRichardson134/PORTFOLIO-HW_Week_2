@@ -33,10 +33,7 @@ li a {
 }
 
 img {
-    /* max-width: 100%; */
-    height: auto;
     border-radius: 25px;
-    padding: 20px;
 }
 
 h2 {
@@ -48,13 +45,12 @@ h2 {
 
 #p2 {
   font-size: 20px;
-  margin-left: 90px;
-  margin-top: 50px;
+  margin-left: 5%;
+  /* margin-top: 50px; */
   justify-content: center;
 }
 
 .flexboxP {
-  /* display: flex; */
   flex-direction: row;
   flex-wrap: wrap;
   justify-content:space-evenly ;
@@ -63,7 +59,7 @@ h2 {
 }
 
 .flexboxchild {
-  /* flex-basis: 25%; */
+
 }
 
 #mainpics {
@@ -74,13 +70,15 @@ h2 {
 
 #pic1 {
   height: 500px;
-  width: 350px;
+  width: 500px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: -10%;
+  margin-right: -10%;
 }
 
 #pic2{
   height: 500px;
-  /* width: 500px; */
-  background-color: antiquewhite;
 }
 
 #guitar{
@@ -89,7 +87,6 @@ h2 {
 }
 
 .projectrow{
-  background-color:purple;
   display: flex;
   justify-content: space-around;
 }
@@ -105,7 +102,6 @@ h2 {
 }
 
 .bc{
-  background-color:rgba(144, 238, 144, 0.329);
 width: 50%;
 }
 
@@ -117,6 +113,5 @@ width: 50%;
   height: auto;
   border-radius: 25px;
   padding: 20px;
-  /* margin-inline-end: 20px; */
 
 }
